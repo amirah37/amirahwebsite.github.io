@@ -1,0 +1,75 @@
+<!DOCTYPE html> 
+<html> 
+<head>
+<title>mainpage</title>
+<style>
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Josefin Sans', sans-serif;
+	box-sizing: border-box;
+}
+.image {
+	height:100vh;
+	width: 100%;
+	background-image: url("Background1.png");
+	background-size: cover;
+	background-position: center;	
+}
+nav{
+	display: flex;
+	align-item: center;
+	justify-content: space-between;
+	padding-top: 30px;
+	padding-left: 5%;
+	padding-right: 3%;
+}
+
+span{ 
+color: #8946A6;
+}
+nav ul li{ list-style-type: none; 
+display: inline-block; 
+padding: 10px 25px; 
+}
+
+nav ul li a{ 
+color: white; 
+text-decoration: none; 
+font-weight: bold; 
+text-transform: capitalize; 
+}
+
+nav ul li a:hover{ 
+color: #AB784E; 
+transition: .4s;
+}
+
+.content{
+position: absolute;
+top: 25%;
+left: 8%;
+transform: translateY(-50%);
+}
+
+</style>
+</head>
+<body>
+<div class="image">
+<nav>
+<ul>
+	<li><a href="mainpage.html">Home</a></li>
+	<li><a href="promotion.html">Myself</a></li>
+	<li><a href="contact.html">Feedback</a></li>
+	</ul>
+</nav>
+<div class="content">
+	<audio controls autoplay>
+		<source src="Background sound1.mp3" type="audio/mp3">
+	</audio>
+
+</div>
+</div>
+
+</body>
+</html>
